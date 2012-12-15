@@ -12,7 +12,7 @@ Each query in this project has been tested against the live dataset and is known
 
 ## Prefixes
 
-The `_prefixes.rq` file provides a useful set of starting prefixes for working with the data. These include the following:
+The `_prefix.rq` file provides a useful set of starting prefixes for working with the data. These include the following:
 
 	PREFIX bio: <http://purl.org/vocab/bio/0.1/> 
 	PREFIX bibo: <http://purl.org/ontology/bibo/> 
@@ -29,6 +29,13 @@ The `_prefixes.rq` file provides a useful set of starting prefixes for working w
 	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
 	PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
 	PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+Add these at the start of a new query to define the necessary queries.
+
+## Contributing
+
+If you have queries to contribute to the project then please submit a pull request. Any contributions will be considered to have 
+been placed into the public domain.
 
 ## Rights
 
