@@ -1,3 +1,6 @@
+# Select books published by a specific organisation in a specific year
+#
+# The publisher is here identified by name.
 PREFIX bio: <http://purl.org/vocab/bio/0.1/> 
 PREFIX bibo: <http://purl.org/ontology/bibo/> 
 PREFIX blterms: <http://www.bl.uk/schemas/bibliographic/blterms#> 

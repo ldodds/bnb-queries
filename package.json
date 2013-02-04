@@ -1,0 +1,7 @@
+{
+ "title": "BNB Example Queries",
+ "description": "A collection of example sparql queries for use with the British National Bibliography Linked Data",
+ "author": ["Leigh Dodds"],
+ "endpoint": ["http://bnb.data.bl.uk/sparql"],
+ "extra-files": ["Background.md"]
+}	

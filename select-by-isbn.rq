@@ -1,3 +1,6 @@
+# Lookup the URI, BNB Number and title of a book, based on its ISBN
+#
+# @see http://www.bl.uk/bibliographic/bnbstruct.html
 PREFIX bio: <http://purl.org/vocab/bio/0.1/> 
 PREFIX bibo: <http://purl.org/ontology/bibo/> 
 PREFIX blterms: <http://www.bl.uk/schemas/bibliographic/blterms#> 

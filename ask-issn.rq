@@ -1,3 +1,4 @@
+#Does the dataset contain a resource with this ISSN?
 PREFIX bio: <http://purl.org/vocab/bio/0.1/> 
 PREFIX bibo: <http://purl.org/ontology/bibo/> 
 PREFIX blterms: <http://www.bl.uk/schemas/bibliographic/blterms#> 
@@ -14,7 +15,6 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
 
-#Does the dataset contain a resource with this ISSN?
 PREFIX bibo: <http://purl.org/ontology/bibo/>
 ASK WHERE {
   ?uri bibo:issn "1356-0069".

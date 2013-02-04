@@ -1,3 +1,6 @@
+# This is not a full query, its simply a handy set of prefixes useful when 
+# writing other queries. Includes all vocabularies referenced in the BL 
+# data model.
 PREFIX bio: <http://purl.org/vocab/bio/0.1/> 
 PREFIX bibo: <http://purl.org/ontology/bibo/> 
 PREFIX blterms: <http://www.bl.uk/schemas/bibliographic/blterms#> 
