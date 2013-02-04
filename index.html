@@ -1,0 +1,195 @@
+<html>
+  <head>
+    <title>BNB Example Queries</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="codemirror.css">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>    
+	<script src="jquery.js"></script> 		
+	<script src="bootstrap.min.js"></script>
+	
+	<script src="codemirror.js" type="text/javascript"></script> 		 				
+	<script src="sparql.js"></script>    
+  </head>
+  <body>
+  
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="brand" href="index.html">BNB Example Queries</a>
+          <ul class="nav">
+          	
+		  		<li><a href="index.html#overview">Overview</a></li>
+		  			  	
+		  	
+		  	  
+		  	    <li><a href="Background.html">
+		  	    	Background
+		  	    	</a></li>
+		  	  
+		  	
+		  </ul>
+        </div>
+      </div>
+    </div>
+    
+   <div class="container">
+      <div class="hero-unit">
+        	<h1>BNB Example Queries</h1>
+      </div>
+
+      <div class="row">
+        <div class="span12">
+          <p>A collection of example sparql queries for use with the British National Bibliography Linked Data</p>
+        </div>
+      </div>
+
+	  
+      	<div class="row">
+        	<div class="span12">
+        		<h3 id="overview">Overview</h3>
+          		<p>The British National Bibliography (BNB) is a bibliographic database that contains information on a wide range of books and serial publications that have been published in the UK and Ireland since the 1950s. The database is available under a public domain license and can be accessed via an online API.</p>
+
+<p>This project contains a number of sample SPARQL queries for working with the <a href="http://www.bl.uk/bibliographic/datafree.html#lod">British National Bibliography Linked Data</a>.</p>
+
+<p>The public SPARQL endpoint for the dataset can be found at:</p>
+
+<pre><code>http://bnb.data.bl.uk/sparql
+</code></pre>
+
+<p>This documentation provides access to a number of sample queries which have been tested against the live dataset and are known to return useful results.</p>
+
+<p>The original source for the queries can be <a href="https://github.com/ldodds/bnb-queries">found on github</a>.</p>
+
+        	</div>
+      	</div>
+	        	
+      
+      <div class="row">
+        <div class="span12">
+          <h3>Queries</h3>
+          <p>This set of documentation covers <strong>24</strong> queries</p>
+          <table class="table">
+            <thead>
+            	<tr>
+            		<th>Title</th><th>Source Path</th>
+            	</tr>
+            </thead>
+            <tbody>
+           		
+           		<tr>
+           		  <td><a href="_prefix.html">_prefix.rq</a></td><td><code>_prefix.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="ask-issn.html">ask-issn.rq</a></td><td><code>ask-issn.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="describe-by-isbn.html">describe-by-isbn.rq</a></td><td><code>describe-by-isbn.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="describe-uri.html">describe-uri.rq</a></td><td><code>describe-uri.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="find-by-isbn.html">find-by-isbn.rq</a></td><td><code>find-by-isbn.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="find-by-issn.html">find-by-issn.rq</a></td><td><code>find-by-issn.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="find-categories-for-a-series.html">find-categories-for-a-series.rq</a></td><td><code>find-categories-for-a-series.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="find-regions-from-serials.html">find-regions-from-serials.rq</a></td><td><code>find-regions-from-serials.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="find-series-by-author.html">find-series-by-author.rq</a></td><td><code>find-series-by-author.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-author-by-isbn.html">select-author-by-isbn.rq</a></td><td><code>select-author-by-isbn.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-author-categories.html">select-author-categories.rq</a></td><td><code>select-author-categories.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-authors-by-birth-year.html">select-authors-by-birth-year.rq</a></td><td><code>select-authors-by-birth-year.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-books-by-author.html">select-books-by-author.rq</a></td><td><code>select-books-by-author.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-books-by-category.html">select-books-by-category.rq</a></td><td><code>select-books-by-category.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-books-by-location.html">select-books-by-location.rq</a></td><td><code>select-books-by-location.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-books-by-publication-year.html">select-books-by-publication-year.rq</a></td><td><code>select-books-by-publication-year.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-books-by-publisher-and-year.html">select-books-by-publisher-and-year.rq</a></td><td><code>select-books-by-publisher-and-year.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-books-in-series.html">select-books-in-series.rq</a></td><td><code>select-books-in-series.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-by-isbn.html">select-by-isbn.rq</a></td><td><code>select-by-isbn.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-by-uri.html">select-by-uri.rq</a></td><td><code>select-by-uri.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-common-contributors.html">select-common-contributors.rq</a></td><td><code>select-common-contributors.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-contributors-by-author.html">select-contributors-by-author.rq</a></td><td><code>select-contributors-by-author.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-distinct-author-by-isbn.html">select-distinct-author-by-isbn.rq</a></td><td><code>select-distinct-author-by-isbn.rq</code></td>
+           		</tr>
+           		
+           		<tr>
+           		  <td><a href="select-serials-by-place.html">select-serials-by-place.rq</a></td><td><code>select-serials-by-place.rq</code></td>
+           		</tr>
+           		
+			</tbody>           		
+          </table>
+        </div>
+      </div>
+
+	<hr>
+	<footer class="footer">Generated with <a href="http://github.com/ldodds/sparql-doc">sparql-doc</a>.</footer>
+</div>
+
+  </body>	
+</html>
+    
+   
